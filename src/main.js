@@ -1,6 +1,13 @@
 requirejs.config({
     paths: {
-        Phaser: '../lib/phaser'
+        Phaser: '../lib/phaser',
+        Isometric: '../lib/isometric'
+    },
+    shim: {
+        Isometric: {
+            deps: ['Phaser'],
+            exports: 'Isometric'
+        }
     }
 });
 
