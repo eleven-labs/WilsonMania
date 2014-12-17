@@ -1,0 +1,18 @@
+{
+    "name": "WilsonMania",
+    "description": "WilsonMania",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eleven-labs/WilsonMania.git"
+    },
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Jonathan Jalouzot",
+            "email": "jalouz.j@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "express": "~4.*.*"
+    }
+}
